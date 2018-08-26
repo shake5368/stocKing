@@ -1,14 +1,13 @@
-package com.stocking.application.controller;
+package com.sitetroycool.stocking.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class StockController {
+public class IndexController {
 
   @RequestMapping("/")
   public String index() {
-    return "King";
+    return "stocKing";
   }
-  
 }
